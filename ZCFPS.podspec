@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZCFPS"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "FPS detect"
   s.homepage     = "https://github.com/Yzc-jason/ZCFPS"
   s.license      = "MIT"

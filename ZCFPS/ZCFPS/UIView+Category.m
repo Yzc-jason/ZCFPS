@@ -7,7 +7,7 @@
 //
 
 #import "UIView+Category.h"
-#import "ZCFPSLabel.h"
+#import "ZCFPSView.h"
 
 @implementation UIView (Category)
 
@@ -28,8 +28,8 @@
         fpsLabelY = fpsLabelY - 34;
     }
     
-    ZCFPSLabel *fpsLabel = [[ZCFPSLabel alloc] initWithFrame:CGRectMake(0, fpsLabelY, 50, 20)];
-    [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:fpsLabel];
+    ZCFPSView *fpsView = [[ZCFPSView alloc] initWithFrame:CGRectMake(0, fpsLabelY, 50, 20)];
+    [[UIApplication sharedApplication].keyWindow.rootViewController.view addSubview:fpsView];
 }
 
 + (void)zc_applicationDidFinishLaunching:(NSNotification *)noti{

@@ -10,6 +10,7 @@
 		D74CC4E821E4CA6400617EB0 /* ZCProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D74CC4E721E4CA6400617EB0 /* ZCProxy.m */; };
 		D74CC4EB21E4CA7800617EB0 /* ZCFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74CC4EA21E4CA7800617EB0 /* ZCFPSLabel.m */; };
 		D74CC4EE21E4D47F00617EB0 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D74CC4ED21E4D47F00617EB0 /* UIView+Category.m */; };
+		D7CDCC542302E54E000AB606 /* ZCFPSView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CDCC532302E54E000AB606 /* ZCFPSView.m */; };
 		D7D1128E21E4C78D006B8365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1128D21E4C78D006B8365 /* AppDelegate.m */; };
 		D7D1129121E4C78D006B8365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1129021E4C78D006B8365 /* ViewController.m */; };
 		D7D1129421E4C78D006B8365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7D1129221E4C78D006B8365 /* Main.storyboard */; };
@@ -44,6 +45,8 @@
 		D74CC4EA21E4CA7800617EB0 /* ZCFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCFPSLabel.m; sourceTree = "<group>"; };
 		D74CC4EC21E4D47F00617EB0 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		D74CC4ED21E4D47F00617EB0 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		D7CDCC522302E54E000AB606 /* ZCFPSView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCFPSView.h; sourceTree = "<group>"; };
+		D7CDCC532302E54E000AB606 /* ZCFPSView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCFPSView.m; sourceTree = "<group>"; };
 		D7D1128921E4C78D006B8365 /* ZCFPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCFPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D1128C21E4C78D006B8365 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7D1128D21E4C78D006B8365 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +99,8 @@
 				D74CC4EA21E4CA7800617EB0 /* ZCFPSLabel.m */,
 				D74CC4EC21E4D47F00617EB0 /* UIView+Category.h */,
 				D74CC4ED21E4D47F00617EB0 /* UIView+Category.m */,
+				D7CDCC522302E54E000AB606 /* ZCFPSView.h */,
+				D7CDCC532302E54E000AB606 /* ZCFPSView.m */,
 			);
 			path = ZCFPS;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				D7D1129121E4C78D006B8365 /* ViewController.m in Sources */,
 				D7D1129C21E4C78D006B8365 /* main.m in Sources */,
 				D7D1128E21E4C78D006B8365 /* AppDelegate.m in Sources */,
+				D7CDCC542302E54E000AB606 /* ZCFPSView.m in Sources */,
 				D74CC4E821E4CA6400617EB0 /* ZCProxy.m in Sources */,
 				D74CC4EE21E4D47F00617EB0 /* UIView+Category.m in Sources */,
 				D74CC4EB21E4CA7800617EB0 /* ZCFPSLabel.m in Sources */,
